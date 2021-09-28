@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- AOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.css"
+    />
+
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" 
+            crossorigin="anonymous">
+    
+            
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mon portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="navigation">
+        <div class="nav-center d-flex">
+          <h2 class="logo d-flex">
+            <span class="color">A.</span>
+            <span>Diop</span>
+          </h2>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="#header" class="nav-link scroll-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link scroll-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link scroll-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link scroll-link">Portfolio</a>
+            </li>
+            <li class="nav-item"><a href="#blog" class="nav-link scroll-link">Blog</a></li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link scroll-link">Contact</a>
+            </li>
+
+            <!-- Theme -->
+            <li class="nav-item theme-icon">
+              <i class="bx bx-moon"></i>
+            </li>
+
+            <!-- Close Button -->
+            <div class="close">
+              <i class="bx bx-x"></i>
+            </div>
+          </ul>
+
+          <!-- theme -->
+          <div class="theme theme-icon">
+            <i class="bx bx-moon"></i>
+          </div>
+
+          <!-- Hamburger -->
+          <div class="hamburger">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Overlay -->
+      <div class="overlay"></div>
+
+      <!-- Hero Image -->
+      <img src="./images/hero.png" class="hero-img" alt=""/>
+      <!-- Social Links -->
+      <div class="socials">
+        <span class="icon"><a  href="https://twitter.com/home?lang=fr"></a><i class="bx bxl-twitter"></i></span>
+        <span class="icon"><a  href="https://web.facebook.com/home.php"></a><i class="bx bxl-facebook"></i></span>
+        <span class="icon"><a href="https://github.com/"><i class="bx bxl-github"></a></i></span>
+      </div>
+
+      <!-- Color Control -->
+      <div class="control">
+        <div class="widget d-flex">
+          <i class="bx bxs-cog"></i>
+        </div>
+        <div class="colors">
+          <span data-id="#ff6174"></span>
+          <span data-id="#42caff"></span>
+          <span data-id="#7462e1"></span>
+          <span data-id="#ff4600"></span>
+          <span data-id="#ce00ff"></span>
+        </div>
+      </div>
+
+      <!-- Hero -->
+
+      <div class="content">
+        <span>salue</span>
+        <h1>je suis <span id="type1"></span></h1>
+        <p>
+          je suis freelance en developpement web web mobile,en web designner
+          et en Webmarketing
+        </p>
+        <a href="#" class="btn btn-hero">engage moi</a>
+      </div>
+    </header>
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about-center d-flex">
+          <div class="col-1" data-aos="fade-right" data-aos-duration="1300">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill-rule: evenodd;
+                  }
+                </style>
+              </defs>
+              <path
+                class="cls-1"
+                d="M348.966,185.028C352.5,133.656,390.75,98.4,408.679,84.919c65.653-49.37,156.979-31.683,212.511,6.147,66.582,45.359,84.381,124.626,87.814,168.6,11.7,149.93-115.48,312.737-230.073,307.349-36.811-1.731-88.125-21.605-104.5-62.348-21.744-54.1,38.923-101.571,32.491-167.725C400.873,274.711,344.529,249.615,348.966,185.028Z"
+              />
+              <img src="./images/about-img.png" alt="">
+            </svg>
+          </div>
+          <div class="col-2" data-aos="fade-left" data-aos-duration="1300">
+            <div class="title">
+              <span>Tout ce que vous pouvez savoir.</span>
+              <h1>A-propos</h1>
+            </div>
+
+            <h3>Developpeuse,Designer et Digitaliste</h3>
+            <p>passionnée par le web et les nouvelles technologies ,le developpement web est une passion pour moi.
+            une fois eu ma licence en communication digitale,je me suis lancé vers le developpement web
+             qui repose sur l’ensemble des fonctionnalités techniques d’un site Internet ou d’une application web.
+              en tant que full stack en cour de certification,j'ai appris a coder divers langages de programmatione et l'inphographie 
+              Contiente  de l’importance de savoir coder pour pouvoir répondre aux nouvelles problématiques liées à la transformation digitale des entreprises. 
+              </p>
+            
+            <div class="buttons">
+              <a href="#" class="btn">engager moi</a>
+              <a href="#" class="btn outline">télécharger CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="title">
+        <span>Tous les services que j'offres.</span>
+        <h1>Services</h1>
+      </div>
+
+      <div class="row container">
+        <div class="col" data-aos="fade-right" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-bulb"></i></div>
+          <span>20 Projets</span>
+          <h3>UI & UX Design</h3>
+          <p>
+           je propose des services en UI & UX design 
+          </p>
+        </div>
+        <div class="col" data-aos="fade-up" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-search"></i></div>
+          <span>10 projets</span>
+          <h3>SEO</h3>
+          <p>
+            je fais du referencement sur les moteurs de recherches
+                            naturelle! & payant!      </p>
+        </div>
+
+        <div class="col" data-aos="fade-up" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-layer"></i></div>
+          <span>100 Projets</span>
+          <h3>Graphic Design</h3>
+          <p>
+            J'offres des services en photoshop,ullustrator,
+            indesign,figmats... </p>
+        </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-desktop"></i></div>
+          <span>50 Projets</span>
+          <h3>Web Design</h3>
+          <p>
+            je propose des site vitrines,boutique en ligne</p>
+        </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-palette"></i></div>
+          <span>10 Projets</span>
+          <h3>Site web</h3>
+          <p>
+            je propose des site vitrines responsive sur tous les formats  avec un codage propre et lisible        </p>
+        </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-desktop"></i></div>
+          <span>50 Project</span>
+          <h3>Web-Marketing</h3>
+          <p>
+            je propose des services en web-marketing:publicité oneline,campagne digitale,plan de communication    </p>
+        </div>
+      </div>
+    </section>
+
+
+
+   
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+      <div class="title">
+        <h1>Skills</h1>
+      </div>
+
+      <div class="container">
+        <div class="container-box">
+            <div class="container-logo">
+                <i class="fas fa-globe"></i>
+            </div>
+            <div class="container-title">
+                <h3>Web Development</h3>
+                <div class="container-data">
+                    <a href="#">HTML<i class="fab fa-html5"></i></a>
+                    <a href="#">CSS<i class="fab fa-css3-alt"></i></a>
+                    <a href="#">JavaScript<i class="fab fa-js"></i></a>
+                    <a href="#">bootstrap<i class="fab fa-bootstrap"></i></a>
+                    <a href="#">php<i class="fab fa-php"></i></a>
+                    <a href="#">tailwind-css<i class="fab fa-tailwind-css"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container-box">
+            <div class="container-logo">
+                <i class="fas fa-tools"></i>
+            </div>
+            <div class="container-title">
+                <h3>Web Design</h3>
+                <div class="container-data">
+                    <a href="#">Photoshop<i class="fab fa-photoshop"></i></a>
+                    <a href="#">Ullustrator<i class="ullustrator"></i></a>
+                    <a href="#">Indesign<i class="indesign"></i></a>
+                    <a href="#">Figma<i class="figma"></i></a>
+                </div>
+            </div>
+        </div>
+       
+        </div>
+    </section>
+
+
+    <!-- Porfolio -->
+    <section class="section portfolio" id="portfolio">
+      <div class="row container">
+        <div class="title">
+          <span>Les projets que j'ai réalisé en graphic Design</span>
+          <h1>portefeuille</h1>
+        </div>
+        <div class="filter-btns d-flex">
+          <span class="active" data-id="all">All</span>
+          <span data-id="Photoshop">Photoshop</span>
+          <span data-id="Ullustrator">Ullustrator</span>
+          <span data-id="Indesign">Indesign</span>
+          <span data-id="figma">figma</span>
+        </div>
+      </div>
+
+      <div class="projects container" data-aos="fade-up" data-aos-duration="1300">
+        <img data-id="Photoshop" src="./images/3ftp.png" class="item" alt="">
+        <img data-id="Ullustrator" src="./images/eva shop maquette.png" class="item" alt="">
+        <img data-id="Indesign" src="./images/awa photoshop - Copie.jpg" class="item" alt="">
+        <img data-id="figma" src="./images/figmaprojet.png" class="item" alt="">
+        <img data-id="figma" src="./images/fabrique.png" class="item" alt="">
+        <img data-id="Photoshop" src="./images/groupe 3.jpg" class="item" alt="">
+        <img data-id="Indesign" src="./images/affiche busnes.png" class="item" alt="">
+        <img data-id="Photoshop" src="./images/creative agence - Copie.png" class="item" alt="">
+        <img data-id="Indesign" src="./images/fashion.png" class="item" alt="">
+
+
+      </div>
+    </section>
+
+    
+    <!-- Blog -->
+<section class="section blog" id="blog">
+  <div class="title">
+    <span>les projets que j'ai réalisé en création de site web</span>
+    <h1>site</h1>
+  </div>
+
+  <div class="row container">
+    <div class="col" data-aos="fade-right" data-aos-duration="1300">
+      <img src="./images/maquette.png" alt="">
+      <h3>Projet en bootstraps4</h3>
+      <p>site digitech fait en bootstrap4.</p>
+      <a href="https://awa-diop.github.io/digitech/">visitez le site</a>
+    </div>
+    <div class="col" data-aos="fade-down" data-aos-duration="1300">
+      <img src="./images/genie.png" alt="">
+      <h3>Projet en html et css</h3>
+      <p>c'est un site web programmé avec html5 et css.</p>
+      <a href="https://awa-diop.github.io/geniweb/">visitez le site</a>
+    </div>
+    <div class="col" data-aos="fade-left" data-aos-duration="1300">
+      <img src="./images/langerba.png" alt="">
+      <h3>Projet en bootstrap5</h3>
+      <p>c'est un site web programmé avec bootstrap4.</p>
+      <a href=" https://awa-diop.github.io/langerba/">visitez le site</a>
+    </div>
+
+    <div class="col" data-aos="fade-right" data-aos-duration="1300">
+      <img src="./images/sitepsd.png" alt="">
+      <h3>PRojet en Tailwind css</h3>
+      <p>ce site est programmé avec le framework css tailwind-css</p>
+      <a href=" https://awa-diop.github.io/site-e-commerce/">visitez le site</a>
+    </div>
+    <div class="col" data-aos="fade-down" data-aos-duration="1300">
+      <img src="./images/IMG-20210909-WA0084.jpg" alt="">
+      <h3>Bootstrap4</h3>
+      <p>c'est un site web programmé avec bootstrap4.</p>
+      <a href=" https://awa-diop.github.io/youtube2/">visitez le site</a>
+    </div>
+    <div class="col" data-aos="fade-left" data-aos-duration="1300">
+      <img src="./images/Capture d’écran 2021-09-10 023956.png" alt="">
+      <h3>Javascript</h3>
+      <p>c'est un calulatrice fait en javascript.</p>
+      <a href="https://awa-diop.github.io/calculatrice-javascrip/">visitez le site</a>
+    </div>
+
+
+  </div>
+</section>
+<!-- Testimonials -->
+<section class="section testimonials">
+  <div class="container test-center">
+    <div class="left" data-aos="fade-up" data-aos-duration="1300">
+      <img src="./images/test.png" alt="">
+    </div>
+
+    <div class="right right-swiper swiper-container" data-aos="fade-down" data-aos-duration="1300">
+      <div class="title">
+        <span>Témoignages des clients.</span>
+        <h1>Témoignages</h1>
+      </div>
+
+
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <p>satisfait du travail </p>
+          <h4>ELHADJI YORO GUEYE</h4>
+          <span>journaliste</span>
+        </div>
+        <div class="swiper-slide">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga excepturi est reprehenderit nisi iure enim nam! Est atque quasi sunt tempora accusantium quas, adipisci fugit facilis aut recusandae dolor maxime doloribus fuga omnis totam eum sapiente a nam dolorem! Adipisci.</p>
+          <h4>GNAGNA</h4>
+          <span>Designer</span>
+        </div>
+        <div class="swiper-slide">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga excepturi est reprehenderit nisi iure enim nam! Est atque quasi sunt tempora accusantium quas, adipisci fugit facilis aut recusandae dolor maxime doloribus fuga omnis totam eum sapiente a nam dolorem! Adipisci.</p>
+          <h4>ALIOUNE BADARA NDIAYE</h4>
+          <span>React Developer</span>
+        </div>
+      </div>
+
+      <div class="swiper-button-prev">
+          <i class="bx bxs-left-arrow-alt swiper-icon"></i>
+        </div>
+        <div class="swiper-button-next">
+          <i class="bx bxs-right-arrow-alt swiper-icon"></i>
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Contact -->
+<div class="contact-upper" id="contact">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path  fill-opacity="1" d="M0,160L48,165.3C96,171,192,181,288,186.7C384,192,480,192,576,165.3C672,139,768,85,864,58.7C960,32,1056,32,1152,53.3C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</div>
+<section class="section contact">
+  <div class="title">
+    <span>Vous pouvez me contacté.</span>
+    <h1>Contacter moi</h1>
+  </div>
+
+  <div class="contact-center container">
+    <div class="left" data-aos="fade-right" data-aos-duration="1300">
+      <form class="form" id="form">
+        <h2>Message me</h2>
+        <div>
+          <input type="text" placeholder="Nom" id="nom" required >
+          <input type="email" placeholder="email"  id="email" required  >
+        </div>
+
+        <textarea name="message"  cols="10" rows="10" placeholder="Describe Project"></textarea>
+        <input type="submit" id="button" class="btn btn-form" value="envoyer un Email">
+        
+      </form>
+    </div>
+
+    <div class="right" data-aos="fade-left" data-aos-duration="1300">
+      <div>
+        <span class="icon"><i class="bx bx-user"></i></span>
+        <span class="content">
+          <h3>Nom</h3>
+          <span>Awa Diop</span>
+        </span>
+      </div>
+      <div>
+        <span class="icon"><i class="bx bx-map"></i></span>
+        <span class="content">
+          <h3>Address</h3>
+          <span>Khor cabane/saint-louis</span>
+        </span>
+      </div>
+      <div>
+        <span class="icon"><i class="bx bx-envelope"></i></span>
+        <span class="content">
+          <h3>Email</h3>
+          <span>diopawamoussa@gmail.com</span>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>@copyright 2021 par A.Dcode</p>
+</footer>
+    <!-- Swiper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.js"></script>
+    <!-- AOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Typeit -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+    <!-- Custom Script -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+       emailjs.init("user_Az7seC7HHUhFl26y7ANSB");
+        })();
+    </script>
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
